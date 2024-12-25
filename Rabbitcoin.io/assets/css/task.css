@@ -1,0 +1,93 @@
+button {
+    display: flex;
+    align-items: center;
+    gap: 3px; /* Space between image and text */
+    padding: 10px;
+    font-size: 25Px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+  }
+  
+  button .icon {
+    max-width: 5%; /* Adjust size as needed */
+    height: 5%;
+  }
+  
+  button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .task-container {
+    padding: 20px;
+  }
+   
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .coins {
+    font-size: 30px;
+    color: #4caf50;
+  }
+  
+  .tasks {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .tasks h2 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .task:last-child {
+    border-bottom: none;
+  }
+  
+  .reward {
+    color: #4caf50;
+  }
+  
+  button {
+    background: none;
+    cursor: pointer;
+  }
+  
+  button.complete {
+    color: #935b24;
+  }
+  
+  button:disabled {
+    opacity: 1.5;
+    cursor: not-allowed;
+  }

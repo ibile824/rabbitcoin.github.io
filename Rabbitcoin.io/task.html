@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List with Rewards</title>
+    <link rel="stylesheet" href="assets/css/task.css">
+    <style>
+        .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+    </style>
+</head>
+
+<body>
+    <div class="task-container">
+        <header>
+            <h1>Have you check you progress</h1>
+            <div class="coins">Total Coins: <span id="coin-count">0</span></div>
+        </header>
+        <div class="tasks" style="max-width: 80%;">
+            <h2>Tasks</h2>
+            <p>GET REWARDS FOR COMPLETING QUESTS</p>
+
+            <div class="task">
+                <button class="button" onclick="completeTask(this, 10, 0)">
+                    <img src="assets/images/4.gif" alt="Icon" class="icon"> <a
+                        href="https://t.me/+wd0dWm_X2gNiZTA8">Join our Telegram channel</a>
+                </button>
+            </div>
+            <div class="task">
+                <button class="button" onclick="completeTask(this, 10, 0)">
+                    <img src="assets/images/41.gif" alt="Icon" class="icon"><a
+                        href="https://www.tiktok.com/@rabbit.coin.io?_t=8rSHa1jPaY4&_r=1">Join our tictok channel for
+                        more</a>
+                </button>
+            </div>
+            <div class="task">
+                <button class="button" onclick="completeTask(this, 10, 0)">
+                    <img src="assets/images/you.gif" alt="Icon" class="icon"> <a
+                        href="https://www.youtube.com/@Rabbitcoin-dgh">Join our youtube channel for more updates</a>
+                </button>
+            </div>
+            <div class="task">
+                <button class="button" onclick="completeTask(this, 10, 0)">
+                    <img src="assets/images/43.gif" alt="Icon" class="icon"> <a
+                        href="">Join our X handle for more updates</a>
+                </button>
+            </div>
+            <script src="assets/js/task.js"></script>
+</body>
+
+</html>
